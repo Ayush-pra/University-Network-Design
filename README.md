@@ -24,13 +24,6 @@ Each has **wired and wireless** clients, VLANs for separation, and centralized s
 - Each router advertises its VLAN interfaces  
 - Verified routing table entries on all devices  
 
-### 🔹 VLAN Configuration
-| VLAN | Purpose | Example Devices |
-|------|----------|----------------|
-| 10 | Admin | Dept PCs |
-| 20 | Faculty | Staff Laptops |
-| 30 | Students | Lab PCs |
-
 Inter-VLAN routing handled via subinterfaces on the core router.
 
 ### 🔹 DHCP Server
@@ -85,3 +78,4 @@ This project represents a **complete campus-level network model**, showcasing:
 - Multi-service server setup
 
 ---
+
