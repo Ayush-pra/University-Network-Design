@@ -1,13 +1,13 @@
-# Enterprise Network Design – Cisco Packet Tracer
+# University Network Design – Cisco Packet Tracer
 
 # Objective
 Design a full-fledged network for an organization that demonstrates inter-departmental communication, and core networking concepts.
 
 # Network Overview
 The organization’s network consists of three primary departments connected through a central router using OSPF routing:
-1. **IT Department** – bottom left block  
-2. **Head Office** – bottom right block  
-3. **HR Department** – top left block  
+1. **CSE Department** – bottom left block  -  55.0.0.0/10 
+2. **Library** – bottom right block  - 55.64.0.0/10
+3. **ME Department** – top left block  - 55.192.0.0/10
 
 Each department includes both **wired** and **wireless** hosts, connected through switches and access points configured with **WEP/WPA security**.
 
@@ -46,6 +46,7 @@ Each department includes both **wired** and **wireless** hosts, connected throug
 - DHCP and DNS service configuration  
 - Wireless network design with authentication  
 - Integration of multiple servers and protocols  
+
 
 
 
